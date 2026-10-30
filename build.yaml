@@ -70,7 +70,7 @@ include:
   ### SOFLE START ###
   - board: nice_nano_v2
     shield: sofle_left nice_oled
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Sofle_Oled\"  -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000 -DCONFIG_NICE_OLED_WIDGET_MODIFIERS_INDICATORS_FIXED=n -DCONFIG_NICE_OLED_WIDGET_CENTRAL_SHOW_BATTERY_PERIPHERAL_AND_CENTRAL=y
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Sofle_Oled\"  -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000 -DCONFIG_NICE_OLED_WIDGET_MODIFIERS_INDICATORS_FIXED=n
     artifact-name: nice_sofle_left_rgb_oled
     snippet: rgb-config studio-rpc-usb-uart
   - board: nice_nano_v2
